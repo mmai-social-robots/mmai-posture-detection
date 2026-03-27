@@ -1,0 +1,27 @@
+pose_detector:
+  static_image_mode: false
+  model_complexity: 1
+  min_detection_confidence: 0.5
+  min_tracking_confidence: 0.5
+  open_posture_min_ratio: 0.2
+  open_posture_max_ratio: 1.2
+  face_cover_ratio: 0.6
+  depth_min_meters: 0.1
+  depth_max_meters: 2.0
+  history_size: 10
+  depth_outlier_threshold: 0.4
+  withdrawal_threshold_meters: 0.12
+  posture_drop_threshold: 0.15
+
+realsense:
+  color_width: 640
+  color_height: 480
+  depth_width: 640
+  depth_height: 480
+  fps: 30
+
+visualization:
+  show_landmarks: true
+  show_pose_text: true
+  show_depth_marker: true
+  show_fps: true

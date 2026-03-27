@@ -1,0 +1,6 @@
+numpy>=1.26.0,<2.0.0
+opencv-python>=4.9.0
+pyyaml>=6.0
+mediapipe>=0.10.0
+# On your macOS RealSense setup, pyrealsense2 is provided by a manual
+# librealsense build with Python bindings instead of a pip wheel.
