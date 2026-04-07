@@ -85,6 +85,51 @@ Each processed session gets its own output folder with:
 - `metadata.json` copied from the source `.json` file when present
 - `annotated.mp4` when `--render-video` is enabled
 
+## What The Detector Is Doing
+
+The detector looks at each frame and uses body landmarks from MediaPipe, especially the shoulders, wrists, and nose.
+
+From those landmarks, it produces three simple cues:
+
+- `open posture`: how spread apart the hands are compared with shoulder width
+- `covering mouth/face`: whether a hand is very close to the face
+- `sudden withdrawal`: whether the hand quickly moves farther away from the robot in depth
+
+The sudden-withdrawal cue only works for `.bag` recordings, because it needs RealSense depth data. The script also tries to avoid confusing a normal arm movement with withdrawal by comparing the depth change with the recent posture trend.
+
+## What The Output Files Mean
+
+Each processed session gets its own folder under `outputs/recording_tests/`.
+
+- `summary.json`: the overall result for that session
+- `frames.csv`: one row per frame with the detector's outputs
+- `metadata.json`: copied session metadata from the source recording, when available
+- `annotated.mp4`: an optional rendered video with detector overlays, created when `--render-video` is used
+
+### `summary.json`
+
+This is the quickest file to read. It tells you:
+
+- which recording was processed
+- whether the script used the `.bag` or `.mp4`
+- how many frames were processed
+- how often a pose was found
+- how many frames were flagged as mouth-covering
+- how many frames were flagged as sudden withdrawal
+- the average open-posture score for that session
+
+### `frames.csv`
+
+This is the detailed frame-by-frame output. Each row corresponds to one frame and includes:
+
+- `has_pose`: whether a pose was detected in that frame
+- `open_posture_score`: how open or closed the posture looked
+- `is_covering_mouth`: whether a hand was near the face
+- `is_withdrawing`: whether the detector flagged sudden withdrawal
+- `interaction_z_meters`: wrist depth in meters, when depth is available
+
+Use `summary.json` when you want the big picture and `frames.csv` when you want to inspect exactly when something happened.
+
 ## Notes
 
 - Requires an Intel RealSense depth camera and a `pyrealsense2` binding compiled against this repo's venv on macOS.
