@@ -16,6 +16,9 @@ class PosePipeline:
         self.pose_detector.load_model(self.device)
         print("Pose pipeline ready.")
 
+    def reset_state(self) -> None:
+        self.pose_detector.reset_state()
+
     def process_frame(
         self,
         color_frame: np.ndarray,

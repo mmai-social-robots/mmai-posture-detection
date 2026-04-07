@@ -36,6 +36,11 @@ class PoseDetector(BaseDetector):
         self._interaction_z_history: deque[float] = deque(maxlen=self.history_size)
         self._posture_history: deque[float] = deque(maxlen=self.history_size)
 
+    def reset_state(self) -> None:
+        """Clear temporal state so each recording is processed independently."""
+        self._interaction_z_history.clear()
+        self._posture_history.clear()
+
     def load_model(self, device: str = "cpu") -> None:
         try:
             import mediapipe as mp
