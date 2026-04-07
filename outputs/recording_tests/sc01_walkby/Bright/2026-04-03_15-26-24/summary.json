@@ -1,0 +1,25 @@
+{
+  "annotated_video_path": null,
+  "avg_open_posture_score": 0.7112547785387846,
+  "csv_path": "/Users/sparsh/Desktop/Sloan/First_Spring/Multimodal AI/mmai-posture-detection/outputs/recording_tests/sc01_walkby/Bright/2026-04-03_15-26-24/frames.csv",
+  "elapsed_sec": 10.375,
+  "frames_processed": 269,
+  "max_interaction_z_meters": 0.7200000286102295,
+  "metadata": {
+    "duration_seconds": 9.17,
+    "note": "",
+    "realsense_serial": "243322070263",
+    "scenario_code": "SC-01",
+    "scenario_name": "Walk-by (No Interest)",
+    "timestamp": "2026-04-03_15-26-24"
+  },
+  "metadata_path": "data/sc01_walkby/Bright/2026-04-03_15-26-24.json",
+  "mouth_cover_frames": 67,
+  "pose_detection_rate": 0.6877323420074349,
+  "pose_frames": 185,
+  "session": "2026-04-03_15-26-24",
+  "session_id": "sc01_walkby/Bright/2026-04-03_15-26-24",
+  "source_kind": "bag",
+  "source_path": "data/sc01_walkby/Bright/2026-04-03_15-26-24.bag",
+  "withdrawal_frames": 0
+}

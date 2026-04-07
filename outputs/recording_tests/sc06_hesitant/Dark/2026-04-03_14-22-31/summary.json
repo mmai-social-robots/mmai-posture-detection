@@ -1,0 +1,25 @@
+{
+  "annotated_video_path": null,
+  "avg_open_posture_score": 0.7554685619882409,
+  "csv_path": "/Users/sparsh/Desktop/Sloan/First_Spring/Multimodal AI/mmai-posture-detection/outputs/recording_tests/sc06_hesitant/Dark/2026-04-03_14-22-31/frames.csv",
+  "elapsed_sec": 14.427,
+  "frames_processed": 311,
+  "max_interaction_z_meters": 0.5509999990463257,
+  "metadata": {
+    "duration_seconds": 10.58,
+    "note": "",
+    "realsense_serial": "243322070263",
+    "scenario_code": "SC-06",
+    "scenario_name": "Hesitant approach",
+    "timestamp": "2026-04-03_14-22-31"
+  },
+  "metadata_path": "data/sc06_hesitant/Dark/2026-04-03_14-22-31.json",
+  "mouth_cover_frames": 25,
+  "pose_detection_rate": 0.3086816720257235,
+  "pose_frames": 96,
+  "session": "2026-04-03_14-22-31",
+  "session_id": "sc06_hesitant/Dark/2026-04-03_14-22-31",
+  "source_kind": "bag",
+  "source_path": "data/sc06_hesitant/Dark/2026-04-03_14-22-31.bag",
+  "withdrawal_frames": 0
+}

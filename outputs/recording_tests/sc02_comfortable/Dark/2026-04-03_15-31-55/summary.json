@@ -1,0 +1,18 @@
+{
+  "annotated_video_path": null,
+  "avg_open_posture_score": 0.7076909999258862,
+  "csv_path": "/Users/sparsh/Desktop/Sloan/First_Spring/Multimodal AI/mmai-posture-detection/outputs/recording_tests/sc02_comfortable/Dark/2026-04-03_15-31-55/frames.csv",
+  "elapsed_sec": 4.56,
+  "frames_processed": 172,
+  "max_interaction_z_meters": null,
+  "metadata": {},
+  "metadata_path": null,
+  "mouth_cover_frames": 1,
+  "pose_detection_rate": 0.46511627906976744,
+  "pose_frames": 80,
+  "session": "2026-04-03_15-31-55",
+  "session_id": "sc02_comfortable/Dark/2026-04-03_15-31-55",
+  "source_kind": "mp4",
+  "source_path": "data/sc02_comfortable/Dark/2026-04-03_15-31-55_sidebyside.mp4",
+  "withdrawal_frames": 0
+}

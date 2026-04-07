@@ -1,0 +1,25 @@
+{
+  "annotated_video_path": null,
+  "avg_open_posture_score": 0.9171439989454183,
+  "csv_path": "/Users/sparsh/Desktop/Sloan/First_Spring/Multimodal AI/mmai-posture-detection/outputs/recording_tests/sc02_comfortable/Bright/2026-04-03_15-33-17/frames.csv",
+  "elapsed_sec": 12.5,
+  "frames_processed": 280,
+  "max_interaction_z_meters": 1.7670000791549683,
+  "metadata": {
+    "duration_seconds": 9.56,
+    "note": "",
+    "realsense_serial": "243322070263",
+    "scenario_code": "SC-02",
+    "scenario_name": "Comfortable Handover",
+    "timestamp": "2026-04-03_15-33-17"
+  },
+  "metadata_path": "data/sc02_comfortable/Bright/2026-04-03_15-33-17.json",
+  "mouth_cover_frames": 2,
+  "pose_detection_rate": 0.45,
+  "pose_frames": 126,
+  "session": "2026-04-03_15-33-17",
+  "session_id": "sc02_comfortable/Bright/2026-04-03_15-33-17",
+  "source_kind": "bag",
+  "source_path": "data/sc02_comfortable/Bright/2026-04-03_15-33-17.bag",
+  "withdrawal_frames": 16
+}

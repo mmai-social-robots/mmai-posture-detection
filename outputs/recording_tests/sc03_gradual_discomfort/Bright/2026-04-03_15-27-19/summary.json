@@ -1,0 +1,25 @@
+{
+  "annotated_video_path": null,
+  "avg_open_posture_score": 0.7663801622022487,
+  "csv_path": "/Users/sparsh/Desktop/Sloan/First_Spring/Multimodal AI/mmai-posture-detection/outputs/recording_tests/sc03_gradual_discomfort/Bright/2026-04-03_15-27-19/frames.csv",
+  "elapsed_sec": 10.394,
+  "frames_processed": 253,
+  "max_interaction_z_meters": 0.7880000472068787,
+  "metadata": {
+    "duration_seconds": 8.77,
+    "note": "",
+    "realsense_serial": "243322070263",
+    "scenario_code": "SC-03",
+    "scenario_name": "Interest then gradual discomfort",
+    "timestamp": "2026-04-03_15-27-19"
+  },
+  "metadata_path": "data/sc03_gradual_discomfort/Bright/2026-04-03_15-27-19.json",
+  "mouth_cover_frames": 14,
+  "pose_detection_rate": 0.549407114624506,
+  "pose_frames": 139,
+  "session": "2026-04-03_15-27-19",
+  "session_id": "sc03_gradual_discomfort/Bright/2026-04-03_15-27-19",
+  "source_kind": "bag",
+  "source_path": "data/sc03_gradual_discomfort/Bright/2026-04-03_15-27-19.bag",
+  "withdrawal_frames": 2
+}

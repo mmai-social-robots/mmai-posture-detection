@@ -1,0 +1,25 @@
+{
+  "annotated_video_path": null,
+  "avg_open_posture_score": 0.923561062525206,
+  "csv_path": "/Users/sparsh/Desktop/Sloan/First_Spring/Multimodal AI/mmai-posture-detection/outputs/recording_tests/sc04_sudden_withdrawal/Dark/2026-04-03_14-16-37/frames.csv",
+  "elapsed_sec": 20.873,
+  "frames_processed": 627,
+  "max_interaction_z_meters": 0.8050000667572021,
+  "metadata": {
+    "duration_seconds": 20.58,
+    "note": "",
+    "realsense_serial": "243322070263",
+    "scenario_code": "SC-04",
+    "scenario_name": "Interest then sudden withdrawal",
+    "timestamp": "2026-04-03_14-16-37"
+  },
+  "metadata_path": "data/sc04_sudden_withdrawal/Dark/2026-04-03_14-16-37.json",
+  "mouth_cover_frames": 1,
+  "pose_detection_rate": 0.21052631578947367,
+  "pose_frames": 132,
+  "session": "2026-04-03_14-16-37",
+  "session_id": "sc04_sudden_withdrawal/Dark/2026-04-03_14-16-37",
+  "source_kind": "bag",
+  "source_path": "data/sc04_sudden_withdrawal/Dark/2026-04-03_14-16-37.bag",
+  "withdrawal_frames": 7
+}

@@ -1,0 +1,25 @@
+{
+  "annotated_video_path": null,
+  "avg_open_posture_score": 0.698677940546087,
+  "csv_path": "/Users/sparsh/Desktop/Sloan/First_Spring/Multimodal AI/mmai-posture-detection/outputs/recording_tests/sc05_distracted/Bright/2026-04-03_15-30-27/frames.csv",
+  "elapsed_sec": 10.343,
+  "frames_processed": 221,
+  "max_interaction_z_meters": 0.6330000162124634,
+  "metadata": {
+    "duration_seconds": 7.78,
+    "note": "",
+    "realsense_serial": "243322070263",
+    "scenario_code": "SC-05",
+    "scenario_name": "Distracted mid-handover",
+    "timestamp": "2026-04-03_15-30-27"
+  },
+  "metadata_path": "data/sc05_distracted/Bright/2026-04-03_15-30-27.json",
+  "mouth_cover_frames": 13,
+  "pose_detection_rate": 0.4072398190045249,
+  "pose_frames": 90,
+  "session": "2026-04-03_15-30-27",
+  "session_id": "sc05_distracted/Bright/2026-04-03_15-30-27",
+  "source_kind": "bag",
+  "source_path": "data/sc05_distracted/Bright/2026-04-03_15-30-27.bag",
+  "withdrawal_frames": 0
+}
