@@ -2,6 +2,8 @@
 
 Real-time pose perception from Intel RealSense RGB-D video.
 
+This is the posture module of a comfort-aware robot-to-human handover system (MIT Multimodal AI, Spring 2026). The integrated system, which fuses this module with facial emotion and gaze into a phase-aware comfort score, lives in [mmai-integrated-detection](https://github.com/mmai-social-robots/mmai-integrated-detection). The [paper](https://github.com/mmai-social-robots/mmai-integrated-detection/blob/main/MMAI_Final_Report/main.pdf) includes an ablation of this posture channel and the domain shift it surfaced.
+
 ## Features
 
 - MediaPipe Pose detector wrapped as a reusable detector class
@@ -42,7 +44,7 @@ pip install --upgrade pip setuptools wheel
 pip install -r requirements.txt
 ```
 
-On macOS, complete the RealSense-specific setup in [RealSenseHWSetup.md](/Users/sparsh/Desktop/Sloan/First_Spring/Multimodal%20AI/mmai-emotion-detection/mmai-posture-detection/RealSenseHWSetup.md). That guide covers the manual `librealsense` build, RSUSB backend, and the exact launch command this project expects.
+On macOS, complete the RealSense-specific setup in [RealSenseHWSetup.md](RealSenseHWSetup.md). That guide covers the manual `librealsense` build, RSUSB backend, and the exact launch command this project expects.
 
 ## Run
 
@@ -61,7 +63,7 @@ When you have recorded interaction data in `data/`, you can run the same pose pi
 .venv/bin/python scripts/test_recordings.py --data-dir data --recursive
 ```
 
-On macOS, if the live RealSense path only works when launched with the setup from [RealSenseHWSetup.md](/Users/sparsh/Desktop/Sloan/First_Spring/Multimodal%20AI/mmai-posture-detection/RealSenseHWSetup.md), use the same command shape for offline replay as well:
+On macOS, if the live RealSense path only works when launched with the setup from [RealSenseHWSetup.md](RealSenseHWSetup.md), use the same command shape for offline replay as well:
 
 ```bash
 sudo DYLD_LIBRARY_PATH=/usr/local/lib:$DYLD_LIBRARY_PATH \
